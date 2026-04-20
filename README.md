@@ -62,7 +62,7 @@ graph TD
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### 1. Quick Start (Windows)
 We provide a PowerShell script for automated setup:
