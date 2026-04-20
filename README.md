@@ -9,17 +9,17 @@
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-### 🔍 Advanced Retrieval Pipeline
+### Advanced Retrieval Pipeline
 - **Hybrid Search**: Combines dense vector embeddings (`all-MiniLM-L6-v2` via ChromaDB) with sparse keyword search (`BM25`) for maximum recall.
 - **Cross-Encoder Re-Ranking**: Uses `ms-marco-MiniLM-L-6-v2` to mathematically re-score results, ensuring the most relevant context is prioritized for the LLM.
 
-### 🛡️ Safety-First Architecture
+### Safety-First Architecture
 - **ML Intent Classifier**: A custom `SGDClassifier` intercepts diagnosis or treatment requests *before* they reach the LLM, replacing naive keyword filters with robust Data Science.
 - **Hallucination Prevention**: Strict prompt engineering ensures the system only answers based on provided evidence, refusing unsupported or unsafe queries.
 
-### 📊 Enterprise Analytics & Evaluation
+### Enterprise Analytics & Evaluation
 - **RAGAS Diagnostics**: Built-in `/admin` dashboard provides real-time scores for **Context Precision**, **Faithfulness**, and **Answer Relevancy**.
 - **Pandas Telemetry**: Every query is logged with its ML classification and end-to-end latency, visualized through dynamic `recharts` dashboards.
 
@@ -30,7 +30,7 @@
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 ```mermaid
 graph TD
@@ -108,7 +108,7 @@ npm run dev
 
 ---
 
-## 🛡️ Safety & Disclaimer
+## Safety & Disclaimer
 This system employs a multi-layered safety architecture including ML-driven intent classification and strict prompt guardrails.
 
 **This system provides research summaries, not medical advice. Always consult a healthcare professional for diagnosis and treatment.**
