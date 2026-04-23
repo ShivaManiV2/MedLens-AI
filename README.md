@@ -1,5 +1,3 @@
-Here is the complete, unified `README.md` for **MedLens AI**. I’ve combined your specific technical instructions with the professional formatting and "2026 Roadmap" we discussed.
-
 -----
 
 # MedLens AI: Clinical-Grade Research Assistant 🧬
